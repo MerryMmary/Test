@@ -1,0 +1,43 @@
+div {
+
+}
+
+.container {
+    display: flex;
+    border: 1px solid grey;
+    width: 1000px;
+    height: 600px;
+    flex-flow: row wrap;
+
+    
+    /* Замість Цього просто напис flex-flow
+    flex-direction: row;
+    flex-wrap: wrap; */
+
+    /* align-items: stretch; */
+    
+    align-content: space-around; 
+}
+    
+
+
+.box {
+    border: 2px solid maroon;
+    width: 100px;
+    height: 100px;
+    background-color: ivory;
+    font-family: Lato, sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    
+} 
+
+#columnview {
+    column-count: auto;
+    column-gap: 30px;
+    column-rule: 3px dotted maroon;
+    column-width: 550px;
+}
+
